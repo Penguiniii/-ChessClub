@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c32df02e-a859-462c-970b-173e2d685249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ChessWebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/mailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/notifier.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/zenstruck_foundry.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/preload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/routes/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/routes/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/docker-compose.override.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/migrations/Version20220411160336.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Entity/CardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Factory/CardDetailsFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Factory/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Repository/CardDetailsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Security/LoginFormAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/Home/Profile.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/Home/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/security/Login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/users.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChessWebsite/translations/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27ee9hFY01xF7b2Hzk1sockwSzo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ChessWebsite/public/js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxsi\Documents\GitHub\-ChessClub\ChessWebsite\ChessWebsite\public\js" />
+      <recent name="C:\Users\Maxsi\Documents\GitHub\-ChessClub\ChessWebsite\ChessWebsite\public\css" />
+      <recent name="C:\Users\Maxsi\Documents\GitHub\-ChessClub\ChessWebsite\ChessWebsite\templates\Home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxsi\Documents\GitHub\-ChessClub\ChessWebsite\ChessWebsite\templates\user" />
+      <recent name="C:\Users\Maxsi\Documents\GitHub\-ChessClub\ChessWebsite\ChessWebsite\templates\security" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c32df02e-a859-462c-970b-173e2d685249" name="Changes" comment="" />
+      <created>1649684831212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649684831212</updated>
+      <workItem from="1649684834283" duration="17155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,134 @@
+/*main*/
+body {
+    background-color: rgb(223, 222, 222);
+    margin: 0;
+}
+
+form {
+    padding: 3% 2% 4% 15%;
+    width: fit-content;
+}
+
+fieldset {
+    background-color: white;
+    border: 1px gray solid;
+}
+
+input {
+    width:  310px;
+    height: 40px;
+}
+
+header {
+    border-bottom: 2px rgb(167, 167, 167) solid;
+    background-color: white;
+}
+
+Section {
+    -webkit-flex: 1 0 200px;
+    flex: 1 0 200px;
+    padding: 2em;
+}
+
+footer {
+    border-top: 1px rgb(167, 167, 167) solid;
+    background-color: white;
+    text-align: center;
+    height: 70px;
+}
+
+/*Other*/
+
+label {
+    color: rgb(71, 71, 71);
+    font-size: large;
+}
+
+span {
+    font-size: small;
+}
+
+h1 {
+    color: rgb(68, 68, 68);
+}
+
+p {
+    font-size: medium;
+    color: gray
+}
+
+a {
+    color: rgb(255, 136, 0);
+}
+
+a:visited {
+    color: rgb(255, 136, 0);
+}
+
+/*Classes and ID's*/
+
+#Terms_of_Service {
+    margin-left: 17%;
+    color: gray;
+}
+
+#logo {
+    width: 78px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#news {
+    font-size: medium;
+    color: gray;
+}
+
+#push {
+    margin-top: 8.5%;
+}
+
+/*Inputs*/
+
+#button {
+    border-radius: 10px;
+    margin-top: 5%;
+    height: 50px;
+    width: 100%;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+}
+
+#gender {
+    font-size: large;
+    width: 20px;
+    height: 20px;
+}
+
+#birthday {
+    font-size: large;
+    width: 100px;
+    height: 40px;
+}
+
+#login {
+    border-left: 1px solid rgb(161, 161, 161);
+}
+
+
+/*container*/
+
+#column_container {
+    -webkit-display: flex;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#column_container section {
+    -webkit-flex: 1 0 200px;
+    flex: 1 0 200px;
+}
