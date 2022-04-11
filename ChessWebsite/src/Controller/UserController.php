@@ -24,7 +24,7 @@ class UserController extends AbstractController
         $this->passwordHasher = $passwordHasher;
     }
 
-    #[Route('users', name: 'user_index', methods: ['GET'])]
+    #[Route('users', name: 'user_users', methods: ['GET'])]
     public function users(UserRepository $userRepository): Response
     {
         return $this->render('user/users.html.twig', [

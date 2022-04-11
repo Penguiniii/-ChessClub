@@ -5,85 +5,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32df02e-a859-462c-970b-173e2d685249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/ChessWebsite.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/mailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/notifier.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/packages/zenstruck_foundry.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/routes/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/routes/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/docker-compose.override.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/migrations/Version20220411160336.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/public/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Entity/CardDetails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Factory/CardDetailsFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Factory/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Form/UserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Repository/CardDetailsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/src/Security/LoginFormAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/Home/Profile.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/Home/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/security/Login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/templates/user/users.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChessWebsite/translations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/controllers/hello_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/zenstruck_foundry.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20220411160336.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/CardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/CardDetailsFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CardDetailsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Home/Profile.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Home/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/Login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/users.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/ChessWebsite/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -143,6 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649684831212</updated>
       <workItem from="1649684834283" duration="17155000" />
+      <workItem from="1649703115545" duration="2357000" />
     </task>
     <servers />
   </component>

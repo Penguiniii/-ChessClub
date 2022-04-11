@@ -1,5 +1,12 @@
 {% extends ('base.html.twig') %}
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+    {% endblock %}
 
+    {% block javascripts %}
+        <script src="{{ asset('js/jquery-3.3.1.js') }}"></script>
+        <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
+    {% endblock %}
 
     {% block body %}
         {% if error %}
@@ -33,7 +40,7 @@
 
                     <section id="push">
 
-                        <label id="">Password</label><br><br>
+                        <label>Password</label><br><br>
                         <input type="password" placeholder="password" ><br><br>
 
 
@@ -91,6 +98,9 @@
 
                         <select  aria-invalid="true" id="birthday">
                             <option value="" selected="selected">Year</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
                             <option value="2019">2019</option>
                             <option value="2018">2018</option>
                             <option value="2017">2017</option>
@@ -229,6 +239,7 @@
                             You are logged in as {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a>
                         </div>
                     {% endif %}
+
                     <section id="login">
                         <h1>Login</h1>
                         <p>Already have an account ? Login below</p>
