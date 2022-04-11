@@ -12,10 +12,17 @@
         {% if error %}
             <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
         {% endif %}
+
+
         <form method="post">
             <fieldset>
                 <div id="column_container">
                     <section>
+                        {% if app.user %}
+                            <div class="mb-3">
+                                You are logged in as {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a>
+                            </div>
+                        {% endif %}
                         <h1>Register now for an account</h1>
                         <p>Sign up!!</p>
 
@@ -234,12 +241,6 @@
 
 
                     <!--Right Side-->
-                    {% if app.user %}
-                        <div class="mb-3">
-                            You are logged in as {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a>
-                        </div>
-                    {% endif %}
-
                     <section id="login">
                         <h1>Login</h1>
                         <p>Already have an account ? Login below</p>

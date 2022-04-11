@@ -24,10 +24,10 @@ class UserController extends AbstractController
         $this->passwordHasher = $passwordHasher;
     }
 
-    #[Route('users', name: 'user_users', methods: ['GET'])]
-    public function users(UserRepository $userRepository): Response
+    #[Route('/', name: 'user_index', methods: ['GET'])]
+    public function index(UserRepository $userRepository): Response
     {
-        return $this->render('user/users.html.twig', [
+        return $this->render('user/index.html.twig', [
             'users' => $userRepository->findAll(),
         ]);
     }
@@ -48,7 +48,7 @@ class UserController extends AbstractController
             $entityManager->persist($user);
             $entityManager->flush();
 
-            return $this->redirectToRoute('user_users', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('user_index', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('user/new.html.twig', [
@@ -79,7 +79,7 @@ class UserController extends AbstractController
 
             $entityManager->flush();
 
-            return $this->redirectToRoute('user_users', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('user_index', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('user/edit.html.twig', [
@@ -96,6 +96,6 @@ class UserController extends AbstractController
             $entityManager->flush();
         }
 
-        return $this->redirectToRoute('user_users', [], Response::HTTP_SEE_OTHER);
+        return $this->redirectToRoute('user_index', [], Response::HTTP_SEE_OTHER);
     }
 }
