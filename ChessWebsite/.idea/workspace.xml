@@ -56,6 +56,7 @@
       <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
@@ -74,6 +75,7 @@
       <change afterPath="$PROJECT_DIR$/templates/Home/Profile.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/Home/index.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/index.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/security/Login.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/user/_delete_form.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/user/_form.html.twig" afterDir="false" />
@@ -150,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649684831212</updated>
       <workItem from="1649684834283" duration="17155000" />
-      <workItem from="1649703115545" duration="5116000" />
+      <workItem from="1649703115545" duration="9847000" />
     </task>
     <servers />
   </component>
