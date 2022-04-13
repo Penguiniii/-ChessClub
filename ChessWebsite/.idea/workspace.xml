@@ -5,94 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32df02e-a859-462c-970b-173e2d685249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ChessWebsite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/controllers/hello_controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/zenstruck_foundry.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20220411160336.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/CardDetails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/CardDetailsFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CardDetailsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Home/Profile.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Home/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/Login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/jms_serializer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/jms_serializer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/jms_serializer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/.php-cs-fixer.dist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/DumpEnvCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/InstallRecipesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RecipesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RemoveCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RequireCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/UpdateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/UpdateRecipesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/AbstractConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/BundlesConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/ComposerScriptsConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/ContainerConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/CopyFromPackageConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/CopyFromRecipeConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/DockerComposeConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/DockerfileConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/EnvConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/GitignoreConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/MakefileConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Downloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Event/UpdateEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Flex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/GithubApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/InformationOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Lock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageJsonSynchronizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Path.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Recipe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/ScriptExecutor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/SymfonyBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpack/Operation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpack/Result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpacker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/DiffHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipePatch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipePatcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipeUpdate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/GenericRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/BasicErrorHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/ComposerPlugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/ApplicationRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Command/CommandRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Input/InputInterfaceRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Output/OutputInterfaceRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpFoundation/RequestRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpFoundation/ResponseRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpKernel/HttpKernelInterfaceRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/MissingDotenv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/SymfonyErrorHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/autoload_runtime.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Resolver/ClosureResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Resolver/DebugClosureResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/ResolverInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/ClosureRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/HttpKernelRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/ResponseRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/RunnerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/RuntimeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/SymfonyRuntime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20220411160336.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20220412135821.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Home/Profile.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home/Profile.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/Login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/Login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/ChessWebsite/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -104,7 +127,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -129,7 +152,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -153,6 +176,8 @@
       <updated>1649684831212</updated>
       <workItem from="1649684834283" duration="17155000" />
       <workItem from="1649703115545" duration="9847000" />
+      <workItem from="1649771561098" duration="4181000" />
+      <workItem from="1649854893712" duration="3062000" />
     </task>
     <servers />
   </component>
@@ -172,6 +197,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

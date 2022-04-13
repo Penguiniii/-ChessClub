@@ -22,7 +22,7 @@ class RegistrationController extends AbstractController
         $this->passwordHasher = $passwordHasher;
     }
 
-    #[Route('/registration', name: 'app_registration')]
+    #[Route('/register', name: 'app_registration')]
     public function new(Request $request, EntityManagerInterface $entityManager): Response
     {
         $user = new User();
