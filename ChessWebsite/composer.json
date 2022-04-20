@@ -13,7 +13,6 @@
         "doctrine/doctrine-fixtures-bundle": "^3.4",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.10",
-        "friendsofsymfony/rest-bundle": "^3.3",
         "jms/serializer-bundle": "^4.0",
         "mattsmithdev/faker-small-english": "^0.1.0",
         "omnipay/paypal": "^3.0",
