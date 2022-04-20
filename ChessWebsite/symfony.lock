@@ -1,4 +1,7 @@
 {
+    "clue/stream-filter": {
+        "version": "v1.6.0"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.4"
     },
@@ -139,6 +142,9 @@
     "mattsmithdev/faker-small-english": {
         "version": "v0.1"
     },
+    "moneyphp/money": {
+        "version": "v4.0.3"
+    },
     "monolog/monolog": {
         "version": "2.5.0"
     },
@@ -148,11 +154,26 @@
     "nikic/php-parser": {
         "version": "v4.13.2"
     },
+    "omnipay/common": {
+        "version": "v3.2.0"
+    },
+    "omnipay/paypal": {
+        "version": "v3.0.2"
+    },
     "phar-io/manifest": {
         "version": "2.0.3"
     },
     "phar-io/version": {
         "version": "3.2.1"
+    },
+    "php-http/discovery": {
+        "version": "1.14.1"
+    },
+    "php-http/message": {
+        "version": "1.13.0"
+    },
+    "php-http/message-factory": {
+        "version": "v1.0.2"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -206,6 +227,9 @@
     },
     "psr/event-dispatcher": {
         "version": "1.0.0"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
     },
     "psr/link": {
         "version": "2.0.1"

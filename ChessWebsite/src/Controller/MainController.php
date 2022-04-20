@@ -62,4 +62,13 @@ class MainController extends AbstractController
 
 
     }
+    #[Route('/Payment', name: 'Payment')]
+    public function Payment(): Response
+    {
+        $templates = 'Payments/Payment_Form.html.twig';
+        $args = [];
+
+        return $this->render($templates, $args);
+    }
+
 }
