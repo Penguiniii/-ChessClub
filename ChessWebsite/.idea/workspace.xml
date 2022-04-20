@@ -5,110 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32df02e-a859-462c-970b-173e2d685249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/installed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/platform_check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/.php-cs-fixer.dist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/DumpEnvCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/InstallRecipesCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RecipesCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RemoveCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RequireCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/UpdateCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/UpdateRecipesCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/AbstractConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/BundlesConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/ComposerScriptsConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/ContainerConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/CopyFromPackageConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/CopyFromRecipeConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/DockerComposeConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/DockerfileConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/EnvConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/GitignoreConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/MakefileConfigurator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Downloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Event/UpdateEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Flex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/GithubApi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/InformationOperation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Lock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageJsonSynchronizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Path.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Recipe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/ScriptExecutor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/SymfonyBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpack/Operation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpack/Result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpacker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/DiffHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipePatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipePatcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipeUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/GenericRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/BasicErrorHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/ComposerPlugin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/ApplicationRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Command/CommandRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Input/InputInterfaceRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Output/OutputInterfaceRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpFoundation/RequestRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpFoundation/ResponseRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpKernel/HttpKernelInterfaceRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/MissingDotenv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/SymfonyErrorHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/autoload_runtime.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Resolver/ClosureResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Resolver/DebugClosureResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/ResolverInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/ClosureRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/HttpKernelRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/ResponseRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/RunnerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/RuntimeInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/SymfonyRuntime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20220411160336.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20220412135821.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Home/Profile.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home/Profile.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/Login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/Login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/fos_rest.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/composer/platform_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/.php-cs-fixer.dist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/DumpEnvCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/InstallRecipesCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RecipesCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RemoveCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/RequireCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/UpdateCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Command/UpdateRecipesCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/AbstractConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/BundlesConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/ComposerScriptsConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/ContainerConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/CopyFromPackageConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/CopyFromRecipeConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/DockerComposeConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/DockerfileConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/EnvConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/GitignoreConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Configurator/MakefileConfigurator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Downloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Event/UpdateEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Flex.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/GithubApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/InformationOperation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Lock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageFilter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageJsonSynchronizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/PackageResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Path.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Recipe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/ScriptExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/SymfonyBundle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpack/Operation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpack/Result.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Unpacker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/DiffHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipePatch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipePatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/flex/src/Update/RecipeUpdate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/GenericRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/BasicErrorHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/ComposerPlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/ApplicationRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Command/CommandRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Input/InputInterfaceRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/Console/Output/OutputInterfaceRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpFoundation/RequestRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpFoundation/ResponseRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/HttpKernel/HttpKernelInterfaceRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/MissingDotenv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/SymfonyErrorHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Internal/autoload_runtime.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Resolver/ClosureResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Resolver/DebugClosureResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/ResolverInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/ClosureRunner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/HttpKernelRunner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/Runner/Symfony/ResponseRunner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/RunnerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/RuntimeInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/SymfonyRuntime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-5-rest-api/vendor/symfony/runtime/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +166,7 @@
       <workItem from="1649703115545" duration="9847000" />
       <workItem from="1649771561098" duration="4181000" />
       <workItem from="1649854893712" duration="3062000" />
+      <workItem from="1650475977799" duration="615000" />
     </task>
     <servers />
   </component>
@@ -200,16 +189,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Controller/UserController.php</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
