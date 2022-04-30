@@ -55,7 +55,7 @@ class Payment
      */
     public function getCancelUrl($order = "")
     {
-        return $this->route('http://phpstack-275615-1077014.cloudwaysapps.com/cancel.php', $order);
+        return $this->route('Home/Competitions', $order);
     }
 
     /**
@@ -63,11 +63,11 @@ class Payment
      */
     public function getReturnUrl($order = "")
     {
-        return $this->route('http://phpstack-275615-1077014.cloudwaysapps.com/return.php', $order);
+        return $this->route('Profile', $order);
     }
 
     public function route($name, $params)
     {
-        return $name; // ya change hua hai
+        return $name;
     }
 }

@@ -10,4 +10,19 @@
 
         <h1>Welcome {{ app.user.username }}</h1>
 
+        <h2> Enrolled Competitions </h2>
+
+        <h2> Game History </h2>
+
+        <br>
+        <br>
+
+        {% if 'ROLE_ADMIN' in app.user.roles %}
+
+            <h2>Admin Panel</h2>
+            <span> To Manually Create a new user, Edit/Remove an existing User <br>
+            Then follow this <a href="{{ path('user_index') }}">link</a> </span>
+
+        {% endif %}
+
     {% endblock %}

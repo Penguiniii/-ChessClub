@@ -2,36 +2,36 @@
 
     {% block body %}
 
-            <h2>Competitions</h2>
 
-            <h4>Beginner Competition</h4>
-            <p>This Competition is for beginners the entry price is $5, if you <br>
+        <h2>Competitions</h2>
+
+        <h4>Beginner Competition</h4>
+        <p>This Competition is for beginners the entry price is $5, if you <br>
             are new to this and want to go against other members with the same <br>
             skill rating as you for this <br>
-                The Out coming price amount is only small for this one as <br>
-            it is for newer players and only requires a small sum to join.
-            <br><a href="{{ path('Payment') }}">Enter</a></p></p>
+            The Out coming price amount is only small for this one as <br>
+            it is for newer players and only requires a small sum to join.<br>
+            <a href="{{ path('Payment') }}">Purchase</a>
+
+                <h4>Advanced beginner Competitions</h4>
+                <p>This Competition is for Advanced beginner players the entry price is $10, if you <br>
+                    are kinda new to this and want to go against other members with the same <br>
+                    skill rating as you then this competition is the one for you <br>
+                    <a href="{{ path('Payment') }}">Purchase</a>
+
+                <h4>Proficient Competitions</h4>
+                <p>This Competition is for Proficient the entry price is $20, if you <br>
+                    are Proficient to this and want to go against other members with the same <br>
+                    skill rating as you then this competition is the one for you<br>
+                    <a href="{{ path('Payment') }}">Purchase</a>
 
 
-            <h4>Advanced beginner Competitions</h4>
-            <p>This Competition is for Advanced beginner players the entry price is $10, if you <br>
-                are kinda new to this and want to go against other members with the same <br>
-                skill rating as you then this competition is the one for you <br>
-                <a href="{{ path('Payment') }}">Enter</a></p>
-
-
-            <h4>Proficient Competitions</h4>
-            <p>This Competition is for Proficient the entry price is $20, if you <br>
-                are Proficient to this and want to go against other members with the same <br>
-                skill rating as you then this competition is the one for you<br>
-                <a href="{{ path('Payment') }}">Enter</a></p>
-
-
-            <h4>Expert Competitions</h4>
-            <p>This Competition is for beginners the entry price is $100, if you <br>
-                are an Expert to this and want to go against other members with the same <br>
-                skill rating as you then this competition is the one for you
-                <br><a href="{{ path('Payment') }}">Enter</a></p>
+                <h4>Expert Competitions</h4>
+                <p>This Competition is for beginners the entry price is $100, if you <br>
+                    are an Expert to this and want to go against other members with the same <br>
+                    skill rating as you then this competition is the one for you
+                </p>
+        <a href="{{ path('Payment') }}">Purchase</a>
 
 
     {% endblock %}
